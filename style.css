@@ -1,0 +1,376 @@
+@import url('https://fonts.cdnfonts.com/css/Wedding');
+@import url('https://fonts.cdnfonts.com/css/brannboll-stencil-personal-use');
+@import url('https://fonts.cdnfonts.com/css/Delima');
+@import url('https://fonts.cdnfonts.com/css/peachy-2');
+
+* {
+      margin: 0;
+      padding: 0;
+}
+
+.paralax {
+      background-size: cover;
+      background-attachment: fixed;
+      width: 100%;
+      height: 100vh;
+}
+
+.p1 {
+      scroll-behavior: smooth;
+      background-image: url('asets/65977a9919349.jpg');
+}
+
+nav {
+      position: relative;
+      position: sticky;
+      position: -webkit-sticky;
+      background-color: rgb(0, 0, 0);
+      height: 70px;
+      top: 0px;
+      z-index: 1;
+}
+
+nav ul {
+      list-style-type: none;
+      display: flex;
+}
+
+nav ul h1 {
+      margin-top: 15px;
+      margin-left: 200px;
+      margin-right: 500px;
+      font-size: 40px;
+      color: rgb(255, 255, 255);
+      font-family: 'Brannboll Stencil PERSONAL USE', sans-serif;
+}
+
+nav ul li {
+      margin-top: 23px;
+      margin-left: 40px;
+      float: center;
+}
+
+nav ul li a {
+      transition: 0.5s;
+      font-size: 20px;
+      color: white;
+      font-family: calibri;
+      text-decoration: none;
+}
+
+nav ul li a:hover {
+      transition: 0.5s;
+      padding: 2px 10px 2px 10px;
+      background-color: white;
+      border-radius: 30px;
+      color: rgb(2, 105, 165);
+}
+
+section {
+      margin: auto;
+      display: flex;
+      justify-content: center;
+}
+
+.nama {
+      transition: 1.0s;
+      display: flex;
+      justify-content: center;
+      margin-top: 200px;
+      font-family: 'peachy', sans-serif;
+      font-size: 80px;
+      color: rgb(2, 105, 165);
+}
+
+.pasangan {
+      display: flex;
+      justify-content: center;
+      font-family: calibri;
+      font-size: 20px;
+      color: rgb(2, 105, 165);
+}
+
+.p2 {
+      scroll-behavior: smooth;
+      background-image: url(asets/download.jpeg);
+}
+
+.undangan {
+      margin-top: 150px;
+      display: flex;
+      justify-content: center;
+      font-family: 'Delima', sans-serif;
+      font-size: 40px;
+      color: rgb(0, 0, 0);
+}
+
+.keluarga {
+      margin: auto;
+      justify-content: center;
+      display: flex;
+}
+
+.klg {
+      color: rgb(0, 0, 0);
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-top: 50px;
+      margin-bottom: 100px;
+      font-size: 20px;
+      font-family: calibri;
+}
+
+.ucapan {
+      font-weight: 600;
+      margin-left: 300px;
+      margin-right: 300px;
+      margin-top: 120px;
+      font-family: calibri;
+      font-size: 20px;
+      text-align: center;
+}
+
+iframe {
+      margin-top: 150px;
+      width: 80%;
+      height: 70vh;
+}
+
+@media only screen and (max-width:1300px) {
+      .nama {
+            margin-top: 250px;
+      }
+}
+
+@media only screen and (max-width:1200px) {
+      nav ul h1 {
+            margin-right: 350px;
+      }
+}
+
+@media only screen and (max-width:1100px) {
+      nav ul h1 {
+            margin-left: 80px;
+      }
+}
+
+@media only screen and (max-width:900px) {
+      nav ul h1 {
+            margin-left: 100px;
+            margin-right: 200px;
+      }
+
+      .nama {
+            margin-top: 350px;
+      }
+
+      .undangan {
+            margin-top: 300px;
+      }
+
+      .klg {
+            margin: 100px;
+      }
+
+      .ucapan {
+            margin-top: 200px;
+            margin-left: 100px;
+            margin-right: 100px;
+      }
+}
+
+@media only screen and (max-width:800px) {
+      nav ul h1 {
+            margin-left: 50px;
+      }
+
+      .nama {
+            margin-top: 450px;
+      }
+}
+
+@media only screen and (max-width:800px) {
+      .nama {
+            margin-top: 300px;
+      }
+}
+
+@media only screen and (max-width:450px) {
+      nav {
+            position: relative;
+            position: sticky;
+            position: -webkit-sticky;
+            background-color: rgb(0, 0, 0);
+            height: 60px;
+            top: 0px;
+            z-index: 1;
+      }
+
+      nav ul {
+            list-style-type: none;
+      }
+
+      nav ul h1 {
+            margin-top: 17px;
+            margin-left: 40px;
+            margin-right: 0px;
+            font-size: 25px;
+            color: rgb(255, 255, 255);
+            font-family: 'Brannboll Stencil PERSONAL USE', sans-serif;
+      }
+
+      nav ul li {
+            display: flex;
+            justify-content: center;
+            margin-top: 18px;
+            margin-left: 25px;
+            float: center;
+      }
+
+      nav ul li a {
+            transition: 0.5s;
+            font-size: 20px;
+            color: white;
+            font-family: calibri;
+            text-decoration: none;
+      }
+
+      nav ul li a:hover {
+            transition: 0.5s;
+            color: rgb(2, 105, 165);
+      }
+
+      .nama {
+            font-size: 50px;
+      }
+
+      .pasangan {
+            font-size: 15px;
+      }
+
+      .undangan {
+            margin-top: 200px;
+      }
+
+      .klg {
+            margin-left: 10px;
+            margin-right: 10px;
+      }
+
+      .ucapan{
+            font-size: 15px;
+            margin-top: 100px;
+            margin-left: 50px;
+            margin-right: 50px;
+      }
+
+      iframe{
+            margin-top: 150px;
+            width: 90%;
+            height: 70vh;
+      }
+}
+
+
+@media only screen and (max-width:400px){
+      nav ul h1{
+          margin-top: 15px;
+            margin-left: 30px;
+            margin-right: 0px;
+            font-size: 25px;
+            color: rgb(255, 255, 255);
+            font-family: 'Brannboll Stencil PERSONAL USE', sans-serif;
+      }
+
+      nav ul li {
+            display: flex;
+            justify-content: center;
+            margin-top: 18px;
+            margin-left: 20px;
+            float: center;
+      }
+
+      nav ul li a {
+            transition: 0.5s;
+            font-size: 17px;
+            color: white;
+            font-family: calibri;
+            text-decoration: none;
+      }   
+      
+      .nama{
+            margin-top: 250px;
+      }
+      
+      .undangan{
+            font-size: 30px;
+      }
+
+      .pasangan{
+      font-size: 10px;
+      }
+
+      .klg{
+            margin-top: 20px;
+            font-size: 18px;
+      }
+
+      .ucapan{
+            font-size: 14px;
+      }
+}
+@media only screen and (max-width:350px){
+      nav ul h1{
+          margin-top: 15px;
+            margin-left: 20px;
+            margin-right: 0px;
+            font-size: 25px;
+            color: rgb(255, 255, 255);
+            font-family: 'Brannboll Stencil PERSONAL USE', sans-serif;
+      }
+
+      nav ul li {
+            display: flex;
+            justify-content: center;
+            margin-top: 18px;
+            margin-left: 15px;
+            float: center;
+      }
+
+      nav ul li a {
+            transition: 0.5s;
+            font-size: 15px;
+            color: white;
+            font-family: calibri;
+            text-decoration: none;
+      }   
+      
+      .nama{
+            margin-top: 250px;
+      }
+      
+      .undangan{
+            margin-top: 100px;
+            font-size: 30px;
+      }
+
+      .pasangan{
+      font-size: 10px;
+      }
+
+      .klg{
+            margin-top: 20px;
+            font-size: 18px;
+      }
+
+      .ucapan{
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 60px;
+            font-size: 14px;
+      }
+
+      iframe{
+            margin-top: 100px;
+      }
+}
